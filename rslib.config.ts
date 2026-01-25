@@ -1,6 +1,11 @@
+import type { ConfigParams, RslibConfig } from "@rslib/core";
 import { NodeLibraryBuilder } from "@savvy-web/rslib-builder";
 
-export default NodeLibraryBuilder.create({
+const config: (env: ConfigParams) => Promise<RslibConfig> = NodeLibraryBuilder.create({
+	tsdocLint: true,
+	// Externalize typescript - it uses __filename which doesn't work when bundled in ESM
+	// Also externalize source-map-support which is an optional typescript dependency
+	externals: [],
 	async transform({ pkg }) {
 		delete pkg.devDependencies;
 		delete pkg.scripts;
@@ -8,3 +13,5 @@ export default NodeLibraryBuilder.create({
 		return pkg;
 	},
 });
+
+export default config;
