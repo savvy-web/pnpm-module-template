@@ -79,7 +79,8 @@
 		"**/*.tsbuildinfo": true,
 		"**/dist": true,
 		"**/node_modules": true,
-		"website/docs/en/claude-binary-plugin/api": true,
+		"**/.claude/plans": true,
+		"**/.claude/design": true,
 		"pnpm-lock.yaml": true
 	},
 	"formattingToggle.affects": [
