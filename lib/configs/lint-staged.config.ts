@@ -1,3 +1,3 @@
 import { Preset } from "@savvy-web/lint-staged";
 
-export default Preset.standard();
+export default Preset.full();
