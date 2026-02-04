@@ -1,29 +1,19 @@
 packages:
   - .
-
 autoInstallPeers: true
-
 configDependencies:
-  '@savvy-web/pnpm-plugin-silk': 0.1.0+sha512-9VXkivgbSf6/cUO9K1hcmgoYi1boHLj/2gEzZGdeunKhpzYBrKRfyYAYSgzzjkxv7leKYW4BlTsCLschMKF3uQ==
-
+  "@savvy-web/pnpm-plugin-silk": 0.2.0+sha512-AJBcJ9VhVXm7hi0t4g+HgakCpK/hEO+KQZfcROWbf/yxirPupJh4hza01xWLf3WYrUe0PL2Qhx2g9NBR68DFkg==
 loglevel: info
-
 onlyBuiltDependencies:
-  - '@parcel/watcher'
+  - "@parcel/watcher"
   - core-js
   - esbuild
   - msgpackr-extract
-
-overrides:
-  '@isaacs/brace-expansion': '>=5.0.1'
-  '@savvy-web/rslib-builder': link:../rslib-builder/dist/dev
-
 preferFrozenLockfile: true
-
 publicHoistPattern:
-  - '@commitlint/cli'
-  - '@commitlint/config-conventional'
-  - '@commitlint/cz-commitlint'
+  - "@commitlint/cli"
+  - "@commitlint/config-conventional"
+  - "@commitlint/cz-commitlint"
   - husky
   - lint-staged
   - markdownlint-cli2

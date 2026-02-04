@@ -40,9 +40,6 @@
 		"typecheck": "turbo run types:check --log-prefix=none --log-order=grouped",
 		"types:check": "tsgo --noEmit"
 	},
-	"dependencies": {
-		"@microsoft/api-extractor": "catalog:silk"
-	},
 	"devDependencies": {
 		"@changesets/cli": "catalog:silk",
 		"@microsoft/api-extractor": "catalog:silk",
