@@ -50,6 +50,8 @@ jobs:
                       @savvy-web/pnpm-plugin-silk
                   dependencies: |
                       @savvy-web/*
+                  run: |
+                      pnpm lint:fix
             - name: Summary
               if: always()
               run: |
