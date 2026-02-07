@@ -50,8 +50,7 @@
 		"@vitest/coverage-v8": "catalog:silk",
 		"turbo": "catalog:silk",
 		"typescript": "catalog:silk",
-		"vitest": "catalog:silk",
-		"workspace-tools": "0.41.0"
+		"vitest": "catalog:silk"
 	},
 	"packageManager": "pnpm@10.28.2",
 	"devEngines": {
