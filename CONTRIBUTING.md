@@ -38,13 +38,13 @@ pnpm-module-template/
 
 ## Available Scripts
 
-| Script              | Description                          |
-| ------------------- | ------------------------------------ |
-| `pnpm run build`    | Build all packages (dev + prod)      |
-| `pnpm run test`     | Run all tests                        |
-| `pnpm run lint`     | Check code with Biome                |
-| `pnpm run lint:fix` | Auto-fix lint issues                 |
-| `pnpm run typecheck`| Type-check all workspaces            |
+| Script | Description |
+| --- | --- |
+| `pnpm run build` | Build all packages (dev + prod) |
+| `pnpm run test` | Run all tests |
+| `pnpm run lint` | Check code with Biome |
+| `pnpm run lint:fix` | Auto-fix lint issues |
+| `pnpm run typecheck` | Type-check all workspaces |
 
 ## Code Quality
 
