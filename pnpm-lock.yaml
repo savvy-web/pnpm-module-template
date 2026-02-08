@@ -13,7 +13,7 @@ catalogs:
       specifier: ^25.2.1
       version: 25.2.1
     '@typescript/native-preview':
-      specifier: ^7.0.0-dev.20260206.1
+      specifier: 7.0.0-dev.20260207.1
       version: 7.0.0-dev.20260206.1
     '@vitest/coverage-v8':
       specifier: ^4.0.18
@@ -33,7 +33,7 @@ overrides:
   lodash: '>=4.17.23'
   tmp: '>=0.2.4'
 
-pnpmfileChecksum: sha256-MEh9N8RmloRexekTEH1+HFJp82zm0lgqklHhrvT+NkY=
+pnpmfileChecksum: sha256-yZuwFz8oZzbuch5Xk8Lvx/Zgt7rLD7OIXKZoBe78NpA=
 
 importers:
 
@@ -43,8 +43,8 @@ importers:
         specifier: catalog:silk
         version: 2.29.8(@types/node@25.2.1)
       '@savvy-web/commitlint':
-        specifier: ^0.3.0
-        version: 0.3.0(95ac9d7cb2cb946f07056805735a2bd1)
+        specifier: ^0.3.1
+        version: 0.3.1(95ac9d7cb2cb946f07056805735a2bd1)
       '@savvy-web/lint-staged':
         specifier: ^0.3.1
         version: 0.3.1(e7161ea58deda1b0fb5ba4e3a58ad679)
@@ -837,8 +837,8 @@ packages:
     resolution: {integrity: sha512-GjH0TPjbVNrPnl/BAGoFuBLJ2sFfXNKbS33lll/Ehe9yw0fyc8Kdw7kO9if37yQqn6vaa4dAHKkPllum7f/IPQ==}
     engines: {node: '>=18.12'}
 
-  '@pnpm/exportable-manifest@1000.3.1':
-    resolution: {integrity: sha512-Z2JpBO6J3tMV9ah/OK4bsrrfMCNVZaR5zcGQ3/sPJxfyy+1avdGtAjp5Vj/XHMT97i2qzoBi5L8etdTuKKKFGg==}
+  '@pnpm/exportable-manifest@1000.4.0':
+    resolution: {integrity: sha512-13y82QR9IybF2vUWLAr17og0LwdAwWMPcW7Y4+mb+8Yb40oo0S7V3zYAKTnoI6bE82PhDc4T9vgdRQKokFUJEQ==}
     engines: {node: '>=18.12'}
 
   '@pnpm/git-utils@1000.0.0':
@@ -1184,8 +1184,8 @@ packages:
   '@rushstack/ts-command-line@5.2.0':
     resolution: {integrity: sha512-lYxCX0nDdkDtCkVpvF0m25ymf66SaMWuppbD6b7MdkIzvGXKBXNIVZlwBH/C0YfkanrupnICWf2n4z3AKSfaHw==}
 
-  '@savvy-web/commitlint@0.3.0':
-    resolution: {integrity: sha512-kV0GM6Fnpja4fQEvR/nshgDnOGfiTxCDreVTiRfqxp422VX4KiqyOF7UPmx5ZYXA/Nc7lc0MUtPqgx2DJ0cGYA==}
+  '@savvy-web/commitlint@0.3.1':
+    resolution: {integrity: sha512-p9loHMUdAUFoOJ+5FQ/cutiBWVQ4iFQOeeGdof4whbc6XrpPomDLnw+WdjWDEVd+PxHoyfVFwxTR5/oZEGtY5Q==}
     hasBin: true
     peerDependencies:
       '@commitlint/cli': ^20.4.1
@@ -4068,7 +4068,7 @@ snapshots:
     dependencies:
       '@pnpm/constants': 1001.3.1
 
-  '@pnpm/exportable-manifest@1000.3.1(@pnpm/logger@1001.0.1)':
+  '@pnpm/exportable-manifest@1000.4.0(@pnpm/logger@1001.0.1)':
     dependencies:
       '@pnpm/catalogs.resolver': 1000.0.5
       '@pnpm/error': 1000.0.5
@@ -4397,7 +4397,7 @@ snapshots:
     transitivePeerDependencies:
       - '@types/node'
 
-  '@savvy-web/commitlint@0.3.0(95ac9d7cb2cb946f07056805735a2bd1)':
+  '@savvy-web/commitlint@0.3.1(95ac9d7cb2cb946f07056805735a2bd1)':
     dependencies:
       '@commitlint/cli': 20.4.1(@types/node@25.2.1)(typescript@5.9.3)
       '@commitlint/config-conventional': 20.4.1
@@ -4454,7 +4454,7 @@ snapshots:
       '@microsoft/tsdoc-config': 0.18.0
       '@pnpm/catalogs.config': 1000.0.5
       '@pnpm/catalogs.protocol-parser': 1001.0.0
-      '@pnpm/exportable-manifest': 1000.3.1(@pnpm/logger@1001.0.1)
+      '@pnpm/exportable-manifest': 1000.4.0(@pnpm/logger@1001.0.1)
       '@pnpm/lockfile.fs': 1001.1.29(@pnpm/logger@1001.0.1)
       '@pnpm/workspace.read-manifest': 1000.2.10
       '@rslib/core': 0.19.5(@microsoft/api-extractor@7.56.3(@types/node@25.2.1))(@typescript/native-preview@7.0.0-dev.20260206.1)(typescript@5.9.3)
