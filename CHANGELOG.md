@@ -4,6 +4,16 @@
 
 ### Patch Changes
 
+- fd966d0: Update dependencies:
+
+  **Dependencies:**
+
+  - @savvy-web/lint-staged: ^0.3.1 → ^0.3.2
+
+## 0.0.1
+
+### Patch Changes
+
 - ae454d3: Update dependencies:
 
   **Dependencies:**

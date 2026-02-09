@@ -1,6 +1,6 @@
 {
 	"name": "@savvy-web/pnpm-module-template",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"private": true,
 	"description": "A template repository for developing and deploying Node.js modules from a pnpm monorepo structure.",
 	"homepage": "https://github.com/spencerbeggs/pnpm-module-template#readme",
