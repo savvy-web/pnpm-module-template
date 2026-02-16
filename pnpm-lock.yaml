@@ -47,8 +47,8 @@ importers:
         specifier: ^0.4.3
         version: 0.4.3(b3c24bfdd21a7ad9f1248544747e9da4)
       '@savvy-web/rslib-builder':
-        specifier: ^0.14.2
-        version: 0.14.2(@microsoft/api-extractor@7.56.3(@types/node@25.2.3))(@pnpm/logger@1001.0.1)(@rslib/core@0.19.6(@microsoft/api-extractor@7.56.3(@types/node@25.2.3))(@typescript/native-preview@7.0.0-dev.20260216.1)(typescript@5.9.3))(@types/node@25.2.3)(@typescript/native-preview@7.0.0-dev.20260216.1)(jiti@2.6.1)(typescript@5.9.3)
+        specifier: ^0.14.3
+        version: 0.14.3(@microsoft/api-extractor@7.56.3(@types/node@25.2.3))(@pnpm/logger@1001.0.1)(@rslib/core@0.19.6(@microsoft/api-extractor@7.56.3(@types/node@25.2.3))(@typescript/native-preview@7.0.0-dev.20260216.1)(typescript@5.9.3))(@types/node@25.2.3)(@typescript/native-preview@7.0.0-dev.20260216.1)(jiti@2.6.1)(typescript@5.9.3)
       '@types/node':
         specifier: catalog:silk
         version: 25.2.3
@@ -1225,14 +1225,14 @@ packages:
       '@biomejs/biome':
         optional: true
 
-  '@savvy-web/rslib-builder@0.14.2':
-    resolution: {integrity: sha512-2I+teV2KMHbqmeZ6GNwq+5gC/eltUmDIcR4rOje0WM702nMsrZJIwjkptj8IQOLKluuuLi1P3VEO2jSxHNVmRA==}
+  '@savvy-web/rslib-builder@0.14.3':
+    resolution: {integrity: sha512-yAdxpUX5iF916bmcy80S4LKpyZ6aN/nYPk2csqmNasLpMOfta/QrxmpzIA7yi5lC9aztlhxiF30JkDwcQSi0mw==}
     engines: {node: '>=24.0.0'}
     peerDependencies:
       '@microsoft/api-extractor': ^7.56.3
       '@rslib/core': ^0.19.6
       '@types/node': ^25.2.3
-      '@typescript/native-preview': 7.0.0-dev.20260214.1
+      '@typescript/native-preview': ^7.0.0-dev.20260216.1
       typescript: ^5.9.3
 
   '@sindresorhus/merge-streams@4.0.0':
@@ -4698,7 +4698,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@savvy-web/rslib-builder@0.14.2(@microsoft/api-extractor@7.56.3(@types/node@25.2.3))(@pnpm/logger@1001.0.1)(@rslib/core@0.19.6(@microsoft/api-extractor@7.56.3(@types/node@25.2.3))(@typescript/native-preview@7.0.0-dev.20260216.1)(typescript@5.9.3))(@types/node@25.2.3)(@typescript/native-preview@7.0.0-dev.20260216.1)(jiti@2.6.1)(typescript@5.9.3)':
+  '@savvy-web/rslib-builder@0.14.3(@microsoft/api-extractor@7.56.3(@types/node@25.2.3))(@pnpm/logger@1001.0.1)(@rslib/core@0.19.6(@microsoft/api-extractor@7.56.3(@types/node@25.2.3))(@typescript/native-preview@7.0.0-dev.20260216.1)(typescript@5.9.3))(@types/node@25.2.3)(@typescript/native-preview@7.0.0-dev.20260216.1)(jiti@2.6.1)(typescript@5.9.3)':
     dependencies:
       '@microsoft/api-extractor': 7.56.3(@types/node@25.2.3)
       '@microsoft/tsdoc': 0.16.0
