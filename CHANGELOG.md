@@ -2,12 +2,18 @@
 
 ## 0.0.1
 
+### Features
+
+* [`bc142bf`](https://github.com/savvy-web/pnpm-module-template/commit/bc142bf07d769c34ee9da7b41cb3a9e27a8ab9ec) Support for @savvy-web/changesets
+
+## 0.0.1
+
 ### Patch Changes
 
-- ae454d3: Update dependencies:
+* ae454d3: Update dependencies:
 
   **Dependencies:**
 
-  - @savvy-web/commitlint: ^0.2.0 → ^0.2.1
-  - @savvy-web/lint-staged: ^0.1.3 → ^0.2.1
-  - @savvy-web/rslib-builder: ^0.11.0 → ^0.12.0
+  * @savvy-web/commitlint: ^0.2.0 → ^0.2.1
+  * @savvy-web/lint-staged: ^0.1.3 → ^0.2.1
+  * @savvy-web/rslib-builder: ^0.11.0 → ^0.12.0
