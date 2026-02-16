@@ -25,7 +25,7 @@
 		"build:prod": "rslib build --config-loader native --env-mode npm",
 		"ci:build": "CI=\"true\" turbo run build:dev build:prod --log-order=grouped --output-logs=full",
 		"ci:test": "CI=\"true\" vitest run --coverage",
-		"ci:version": "changeset version && biome format --write .",
+		"ci:version": "savvy-changesets version && biome format --write .",
 		"commit:check": "savvy-commit check",
 		"commit:init": "savvy-commit init",
 		"lint": "biome check --max-diagnostics=none",
@@ -41,10 +41,10 @@
 		"types:check": "tsgo --noEmit"
 	},
 	"devDependencies": {
-		"@changesets/cli": "catalog:silk",
+		"@savvy-web/changesets": "^0.1.1",
 		"@savvy-web/commitlint": "^0.3.2",
 		"@savvy-web/lint-staged": "^0.4.0",
-		"@savvy-web/rslib-builder": "^0.12.2",
+		"@savvy-web/rslib-builder": "^0.14.1",
 		"@types/node": "catalog:silk",
 		"@typescript/native-preview": "catalog:silk",
 		"@vitest/coverage-v8": "catalog:silk",
