@@ -45,12 +45,7 @@
 		"@savvy-web/commitlint": "^0.3.3",
 		"@savvy-web/lint-staged": "^0.4.3",
 		"@savvy-web/rslib-builder": "^0.14.3",
-		"@types/node": "catalog:silk",
-		"@typescript/native-preview": "catalog:silk",
-		"@vitest/coverage-v8": "catalog:silk",
-		"turbo": "catalog:silk",
-		"typescript": "catalog:silk",
-		"vitest": "catalog:silk"
+		"@savvy-web/vitest": "^0.1.0"
 	},
 	"packageManager": "pnpm@10.29.3+sha512.498e1fb4cca5aa06c1dcf2611e6fafc50972ffe7189998c409e90de74566444298ffe43e6cd2acdc775ba1aa7cc5e092a8b7054c811ba8c5770f84693d33d2dc",
 	"devEngines": {
