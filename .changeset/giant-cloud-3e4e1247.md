@@ -1,0 +1,10 @@
+---
+"@savvy-web/pnpm-module-template": patch
+---
+
+## Dependencies
+
+- @savvy-web/changesets: ^0.1.1 → ^0.1.2
+- @savvy-web/commitlint: ^0.3.3 → ^0.3.4
+- @savvy-web/lint-staged: ^0.4.3 → ^0.4.6
+- @savvy-web/rslib-builder: ^0.14.3 → ^0.14.5
