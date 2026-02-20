@@ -49,6 +49,8 @@ jobs:
           branch: ${{ inputs.branch || 'pnpm/config-deps' }}
           dry-run: ${{ inputs.dry-run || false }}
           log-level: ${{ inputs.log-level || 'info' }}
+          changesets: false
+          auto-merge: "squash"
           config-dependencies: |
             @savvy-web/pnpm-plugin-silk
           dependencies: |
