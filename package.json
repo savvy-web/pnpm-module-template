@@ -41,10 +41,10 @@
 		"types:check": "tsgo --noEmit"
 	},
 	"devDependencies": {
-		"@savvy-web/changesets": "^0.1.2",
+		"@savvy-web/changesets": "^0.3.0",
 		"@savvy-web/commitlint": "^0.3.4",
 		"@savvy-web/lint-staged": "^0.4.6",
-		"@savvy-web/rslib-builder": "^0.14.5",
+		"@savvy-web/rslib-builder": "^0.15.0",
 		"@savvy-web/vitest": "^0.1.0"
 	},
 	"packageManager": "pnpm@10.30.1+sha512.3590e550d5384caa39bd5c7c739f72270234b2f6059e13018f975c313b1eb9fefcc09714048765d4d9efe961382c312e624572c0420762bdc5d5940cdf9be73a",
