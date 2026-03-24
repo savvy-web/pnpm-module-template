@@ -1,18 +1,9 @@
 /**
- * \@savvy-web/example-module
- *
- * Version-aware type definition registry for TypeScript documentation with Twoslash.
- * Built with Effect for robust error handling and composable async operations.
+ * A template module demonstrating the standard package structure,
+ * TSDoc conventions, and build pipeline for `@savvy-web` packages.
  *
  * @packageDocumentation
  */
 
-export interface Foo {
-	baz: number;
-}
-
-export class Bar {
-	qux(): Foo {
-		return { baz: 42 };
-	}
-}
+export type { GreeterOptions, Greeting } from "./lib/greeter.js";
+export { Greeter } from "./lib/greeter.js";

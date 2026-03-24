@@ -1,11 +1,4 @@
-/**
- * Vitest setup file for effect-type-registry tests
- *
- * Note: Logging is automatically suppressed by src/Logger.ts which detects
- * the test environment via globalThis.vitest or NODE_ENV=test.
- *
- * No additional configuration needed!
- */
-
-// This file exists to be referenced in vitest.config.ts but doesn't need
-// to do anything - the Logger module handles test mode detection automatically.
+// Global test setup file — auto-detected by @savvy-web/vitest.
+//
+// Code in this file runs once before all test suites. Use it for global
+// mocks, environment setup, or shared beforeAll/afterAll hooks.
