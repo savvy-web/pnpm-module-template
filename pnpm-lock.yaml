@@ -1,3 +1,24 @@
+---
+lockfileVersion: '9.0'
+
+importers:
+
+  .:
+    configDependencies:
+      '@savvy-web/pnpm-plugin-silk':
+        specifier: 0.14.2
+        version: 0.14.2
+
+packages:
+
+  '@savvy-web/pnpm-plugin-silk@0.14.2':
+    resolution: {integrity: sha512-X5dEwhQ0U4tuPN7EWyrVPVfHnpvgJk3FHNolufgCCZVUrXjQFtY5zNsu+jgZa9/SFMfvKO2+Fh4WC/24mRnpOg==}
+
+snapshots:
+
+  '@savvy-web/pnpm-plugin-silk@0.14.2': {}
+
+---
 lockfileVersion: '9.0'
 
 settings:
@@ -12,7 +33,7 @@ overrides:
   smol-toml: '>=1.6.1'
   tmp: ^0.2.7
 
-pnpmfileChecksum: sha256-gzYFIsIApuoBuwm5VkBPr934U4ZSfXIXFEA4pB2CIcU=
+pnpmfileChecksum: sha256-TLoEEYTr7kteGmLk7z2dcOoLspXGYA4XlEdT18Xd+GI=
 
 importers:
 
