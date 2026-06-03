@@ -59,7 +59,7 @@ Task dependencies: `build:dev` and `build:prod` depend on
 ### Code Quality
 
 - **Biome**: Unified linting and formatting (replaces ESLint + Prettier).
-  Config extends `@savvy-web/lint-staged/biome/silk.jsonc`.
+  Config extends `"@savvy-web/silk/biome`.
 - **Husky** hooks integrate with the tools below.
 
 ### Git Hooks (Husky + lint-staged + commitlint)
