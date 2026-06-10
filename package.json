@@ -20,9 +20,9 @@
 	},
 	"scripts": {
 		"build": "turbo run build:dev build:prod --log-order=grouped --log-prefix=none",
-		"build:dev": "rslib build --config-loader native --env-mode dev",
-		"build:inspect": "rslib inspect --config-loader native --env-mode npm --verbose",
-		"build:prod": "rslib build --config-loader native --env-mode npm",
+		"build:dev": "node savvy.build.ts --target dev",
+		"build:meta": "node savvy.build.ts --target meta",
+		"build:prod": "node savvy.build.ts --target prod",
 		"ci:build": "CI=\"true\" turbo run build:dev build:prod --log-order=grouped --output-logs=full --log-prefix=none",
 		"ci:test": "CI=\"true\" vitest run --passWithNoTests",
 		"ci:version": "savvy changeset version && biome format --write .",
@@ -39,7 +39,7 @@
 		"types:check": "tsgo --noEmit"
 	},
 	"devDependencies": {
-		"@savvy-web/rslib-builder": "^0.21.3",
+		"@savvy-web/bundler": "^0.2.0",
 		"@savvy-web/silk": "^0.4.0",
 		"@savvy-web/vitest": "^1.4.0"
 	},
@@ -63,7 +63,7 @@
 	},
 	"publishConfig": {
 		"access": "public",
-		"directory": "dist/dev",
+		"directory": "dist/dev/pkg",
 		"linkDirectory": true,
 		"targets": {
 			"npm": true,
