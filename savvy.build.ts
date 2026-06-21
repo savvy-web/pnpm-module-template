@@ -1,9 +1,6 @@
 import { defineBuild, runBuild } from "@savvy-web/bundler";
 
-const config = defineBuild({
-	devManifest: "preserve",
-	meta: {},
-});
+const config = defineBuild();
 
 export default config;
 
