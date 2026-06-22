@@ -7,3 +7,5 @@
 
 export type { GreeterOptions, Greeting } from "./lib/greeter.js";
 export { Greeter } from "./lib/greeter.js";
+export type { Bar } from "./lib/test.js";
+export { getBar } from "./lib/test.js";
