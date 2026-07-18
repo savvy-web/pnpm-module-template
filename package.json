@@ -39,7 +39,7 @@
 	},
 	"devDependencies": {
 		"@savvy-web/bundler": "^2.0.3",
-		"@savvy-web/silk": "^3.0.1",
+		"@savvy-web/silk": "^3.0.2",
 		"@vitest-agent/plugin": "^2.0.0"
 	},
 	"engines": {
