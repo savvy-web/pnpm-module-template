@@ -1,6 +1,7 @@
 packages:
-  - .
+- .
 autoInstallPeers: true
 configDependencies:
-  "@savvy-web/pnpm-plugin-silk": 0.23.2+sha512-i98PpAQBtCekTHiI7OFquWJj9abxXv5fvfye+JLjs0krwK/9CSGH1gsLdXK6wQPkU20AHUJ4nuQC17ScCmpBaA==
+  '@savvy-web/pnpm-plugin-silk': 0.24.1+sha512-JlfQjiEYQAjdKDg2obndB29rmWVOYEo7A+gwUxprVVjbGsUvbvlNs+e7UGGRhTfkZmgTBHgBWYSXCQSeFMTNwg==
+  '@effected/pnpm-plugin-effect': 0.1.1+sha512-TpmnUekTiRjpnHbFSEPqKeyhX+jQ3WXpUjOcp+F8rNqHBXb6KDL4mMKueHUjFeDbwi0EM0/gOA0bHzDsM5pVAQ==
 loglevel: info
