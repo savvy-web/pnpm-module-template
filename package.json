@@ -38,8 +38,8 @@
 		"types:check": "tsc --noEmit"
 	},
 	"devDependencies": {
-		"@savvy-web/bundler": "^2.0.11",
-		"@savvy-web/silk": "^3.2.3",
+		"@savvy-web/bundler": "^2.0.12",
+		"@savvy-web/silk": "^3.2.5",
 		"@vitest-agent/plugin": "^2.0.9"
 	},
 	"engines": {
