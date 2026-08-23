@@ -38,9 +38,9 @@
 		"types:check": "tsc --noEmit"
 	},
 	"devDependencies": {
-		"@savvy-web/bundler": "^2.1.22",
-		"@savvy-web/silk": "^3.10.0",
-		"@vitest-agent/plugin": "^2.4.6"
+		"@savvy-web/bundler": "^2.1.23",
+		"@savvy-web/silk": "^3.10.1",
+		"@vitest-agent/plugin": "^2.4.7"
 	},
 	"engines": {
 		"node": ">=24.11.0"
