@@ -40,7 +40,7 @@
 	"devDependencies": {
 		"@savvy-web/bundler": "^2.1.21",
 		"@savvy-web/silk": "^3.9.1",
-		"@vitest-agent/plugin": "^2.4.4"
+		"@vitest-agent/plugin": "^2.4.5"
 	},
 	"engines": {
 		"node": ">=24.11.0"
