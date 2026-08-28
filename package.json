@@ -39,8 +39,8 @@
 	},
 	"devDependencies": {
 		"@savvy-web/bundler": "^2.1.29",
-		"@savvy-web/silk": "^3.11.1",
-		"@vitest-agent/plugin": "^2.5.0"
+		"@savvy-web/silk": "^3.11.2",
+		"@vitest-agent/plugin": "^2.5.3"
 	},
 	"engines": {
 		"node": ">=24.11.0"
