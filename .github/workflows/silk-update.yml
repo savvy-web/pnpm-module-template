@@ -32,12 +32,12 @@ jobs:
           fetch-depth: 0
       - name: Setup Runtime
         id: runtime
-        uses: savvy-web/silk-runtime-action@v1
+        uses: savvy-web/silk-runtime-action@dev
         with:
           ignore-scripts: true
       - name: Update Config Dependencies
         id: update
-        uses: savvy-web/silk-update-action@v4
+        uses: savvy-web/silk-update-action@dev
         with:
           app-client-id: ${{ vars.APP_CLIENT_ID }}
           app-private-key: ${{ secrets.APP_PRIVATE_KEY }}
@@ -45,7 +45,7 @@ jobs:
           dry-run: ${{ inputs.dry-run || false }}
           auto-merge: "squash"
           changesets: false
-          upgrade-package-manager: "^11.0.0"
+          upgrade-package-manager: "^12.0.0"
           upgrade-runtime-node: "^26.0.0"
           config-dependencies: |
             @savvy-web/pnpm-plugin-silk
