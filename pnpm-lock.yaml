@@ -9,8 +9,8 @@ importers:
         specifier: 0.18.6
         version: 0.18.6
       '@savvy-web/pnpm-plugin-silk':
-        specifier: 0.51.0
-        version: 0.51.0
+        specifier: 0.51.1
+        version: 0.51.1
     packageManagerDependencies:
       pnpm:
         specifier: 12.15.0
@@ -98,8 +98,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@savvy-web/pnpm-plugin-silk@0.51.0':
-    resolution: {integrity: sha512-dNkFg7dYFqjLEkqQInEk+TNmui6QAvmOClnH6G1DlQDQGYUmdtalnPEICzXHpb1PbjagXPcUVaeNK9v8hiZzCw==}
+  '@savvy-web/pnpm-plugin-silk@0.51.1':
+    resolution: {integrity: sha512-4Y+KhmY0PIPENr2hgRIbAI7VIznHgNoz+0Vwwsln0dER9U/XSGt00BIsGtt3S0G5utzOIe03zIqmfVQp6FcX1A==}
 
   pnpm@12.15.0:
     resolution: {integrity: sha512-s5UdbW/0qfE9x89WzSjSuOs328ycaOUuHhGRhz6p+CoBcoerULqtxczElPA2xnwOR+sTYIwvo29HcRth6hKOYQ==}
@@ -152,7 +152,7 @@ snapshots:
   '@pnpm/exe.win32-x64@12.15.0':
     optional: true
 
-  '@savvy-web/pnpm-plugin-silk@0.51.0': {}
+  '@savvy-web/pnpm-plugin-silk@0.51.1': {}
 
   pnpm@12.15.0:
     optionalDependencies:
@@ -180,7 +180,6 @@ settings:
 
 overrides:
   '@effect/vitest>vitest': ^5.0.1
-  '@effected/workspaces@0.38.1>@effected/lockfiles': 0.19.4
   '@microsoft/api-extractor>typescript': ^6.0.3
   '@effect/ai-anthropic@^4.0.0': 4.0.6
   '@effect/ai-openai-compat@^4.0.0': 4.0.6
@@ -213,7 +212,7 @@ overrides:
   '@effect/vitest@^4.0.0': 4.0.6
   effect@^4.0.0: 4.0.6
 
-pnpmfileChecksum: sha256-Ller3/84VPh/nWsDfk0rPKh06BaW4zU2Q52lO8CCFzo=
+pnpmfileChecksum: sha256-GVWK6h0nIaTy4Qa/C3DCrpPkdAqR72nWypwJs7KxlMw=
 
 importers:
 
@@ -223,11 +222,11 @@ importers:
         specifier: ^0.5.25
         version: 0.5.25(@effected/memfs@0.19.0(effect@4.0.6))(redis@6.3.0)
       '@savvy-web/bundler':
-        specifier: ^2.6.2
-        version: 2.6.2(@types/node@26.6.5)(react@19.3.1)(redis@6.3.0)(tsx@4.23.15)(typescript@7.1.0-beta)
+        specifier: ^2.6.3
+        version: 2.6.3(@types/node@26.6.5)(react@19.3.1)(redis@6.3.0)(tsx@4.23.15)(typescript@7.1.0-beta)
       '@savvy-web/silk':
-        specifier: ^4.5.1
-        version: 4.5.1(@changesets/cli@3.0.3)(@commitlint/cli@21.2.4(conventional-commits-parser@7.1.3)(typescript@7.1.0-beta))(@commitlint/config-conventional@21.2.4)(@types/bun@1.4.4)(@types/node@26.6.5)(@vitest/coverage-istanbul@5.0.5)(@vitest/coverage-v8@5.0.5)(@vitest/expect@5.0.5)(husky@9.1.7)(lint-staged@17.6.0)(markdownlint-cli2-formatter-codequality@0.0.8(markdownlint-cli2@0.24.0(supports-color@8.1.1)))(markdownlint-cli2@0.24.0(supports-color@8.1.1))(redis@6.3.0)(tsx@4.23.15)(turbo@2.11.10)(typescript@7.1.0-beta)(vite@8.3.5(@types/node@26.6.5)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))(vitest@5.0.5)
+        specifier: ^4.5.2
+        version: 4.5.2(@changesets/cli@3.0.3)(@commitlint/cli@21.2.4(conventional-commits-parser@7.1.3)(typescript@7.1.0-beta))(@commitlint/config-conventional@21.2.4)(@types/bun@1.4.4)(@types/node@26.6.5)(@vitest/coverage-istanbul@5.0.5)(@vitest/coverage-v8@5.0.5)(@vitest/expect@5.0.5)(husky@9.1.7)(lint-staged@17.6.0)(markdownlint-cli2-formatter-codequality@0.0.8(markdownlint-cli2@0.24.0(supports-color@8.1.1)))(markdownlint-cli2@0.24.0(supports-color@8.1.1))(redis@6.3.0)(tsx@4.23.15)(turbo@2.11.10)(typescript@7.1.0-beta)(vite@8.3.5(@types/node@26.6.5)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))(vitest@5.0.5)
       '@vitest-agent/plugin':
         specifier: ^5.6.2
         version: 5.6.2(@effected/config-file@0.20.1(@effected/glob@0.14.0(effect@4.0.6))(@effected/jsonc@0.20.0(effect@4.0.6))(@effected/toml@0.16.0(effect@4.0.6))(@effected/walker@0.20.1(@effected/glob@0.14.0(effect@4.0.6))(effect@4.0.6))(@effected/yaml@0.25.1(effect@4.0.6))(effect@4.0.6))(@effected/jsonc@0.20.0(effect@4.0.6))(@effected/memfs@0.19.0(effect@4.0.6))(@effected/toml@0.16.0(effect@4.0.6))(@effected/yaml@0.25.1(effect@4.0.6))(@vitest/coverage-istanbul@5.0.5)(@vitest/coverage-v8@5.0.5)(ink@8.0.0(react@19.3.1))(react@19.3.1)(redis@6.3.0)(vitest@5.0.5)
@@ -1221,8 +1220,8 @@ packages:
     resolution: {integrity: sha512-pIwhWawZXAT0nTXwvcE/InQ7uaVAgSeIzILMb2mBrI01Hz1yEvxrhV2+DE2Fzux8aZY9OJTdLsI+sk9kZDuAJw==}
     engines: {node: '>=20.9.0'}
 
-  '@savvy-web/bundler@2.6.2':
-    resolution: {integrity: sha512-9nBLzhyPIo68LFaF6uoKj55Ct11+F3q8/ym+cVvaR8IciQK5BskIkO7/OFnbVXDd6cgRLPSAinuqjrlMVR+PvQ==}
+  '@savvy-web/bundler@2.6.3':
+    resolution: {integrity: sha512-jzjFaVaxxxevtGR3gu4IZwoOcRHJcYUR7YBwcHNE3jXjUue2pLDysLJhCL2LZwe5s8NcMesEE6aaLgXSxjCTSA==}
     peerDependencies:
       '@resvg/resvg-js': ^2.6.2
       '@types/node': ^26.6.0
@@ -1231,7 +1230,7 @@ packages:
       react: ^19.3.0
       react-dom: ^19.3.0
       satori: ^0.33.4
-      typescript: ^7.1.0-beta
+      typescript: 7.1.0-beta
     peerDependenciesMeta:
       '@resvg/resvg-js':
         optional: true
@@ -1273,8 +1272,8 @@ packages:
       '@effected/workspaces': ^0.39.0
       effect: 4.0.6
 
-  '@savvy-web/silk@4.5.1':
-    resolution: {integrity: sha512-Qdw7jJ1jDfb9erubjNm8qU0S6UR1SWQUny7mB7EGyRFuoBOhT5lj1dDvhybVTvLut0Zk+RLypVJWx16u/3MODQ==}
+  '@savvy-web/silk@4.5.2':
+    resolution: {integrity: sha512-WkMSOdAprdMGGfB6iqG+g9eRze/6kIPhF75uyc1XB005zUyr1MrPjN/VCdJTOdIg7BmeBUZS2+0W1JVwjbKNHA==}
     hasBin: true
     peerDependencies:
       '@biomejs/biome': 2.6.3
@@ -1292,7 +1291,7 @@ packages:
       markdownlint-cli2-formatter-codequality: ^0.0.8
       tsx: ^4.23.15
       turbo: ^2.11.10
-      typescript: ^7.1.0-beta
+      typescript: 7.1.0-beta
       vite: ^8.3.5
       vitest: ^5.0.5
     peerDependenciesMeta:
@@ -3970,7 +3969,7 @@ snapshots:
     transitivePeerDependencies:
       - '@types/node'
 
-  '@savvy-web/bundler@2.6.2(@types/node@26.6.5)(react@19.3.1)(redis@6.3.0)(tsx@4.23.15)(typescript@7.1.0-beta)':
+  '@savvy-web/bundler@2.6.3(@types/node@26.6.5)(react@19.3.1)(redis@6.3.0)(tsx@4.23.15)(typescript@7.1.0-beta)':
     dependencies:
       '@savvy-web/tsdown-plugins': 2.11.1(@tsdown/exe@0.23.2)(@types/node@26.6.5)(redis@6.3.0)(tsx@4.23.15)
       '@tsdown/exe': 0.23.2(tsdown@0.23.2)
@@ -4083,7 +4082,7 @@ snapshots:
       effect: 4.0.6
       shell-quote: 1.12.0
 
-  '@savvy-web/silk@4.5.1(@changesets/cli@3.0.3)(@commitlint/cli@21.2.4(conventional-commits-parser@7.1.3)(typescript@7.1.0-beta))(@commitlint/config-conventional@21.2.4)(@types/bun@1.4.4)(@types/node@26.6.5)(@vitest/coverage-istanbul@5.0.5)(@vitest/coverage-v8@5.0.5)(@vitest/expect@5.0.5)(husky@9.1.7)(lint-staged@17.6.0)(markdownlint-cli2-formatter-codequality@0.0.8(markdownlint-cli2@0.24.0(supports-color@8.1.1)))(markdownlint-cli2@0.24.0(supports-color@8.1.1))(redis@6.3.0)(tsx@4.23.15)(turbo@2.11.10)(typescript@7.1.0-beta)(vite@8.3.5(@types/node@26.6.5)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))(vitest@5.0.5)':
+  '@savvy-web/silk@4.5.2(@changesets/cli@3.0.3)(@commitlint/cli@21.2.4(conventional-commits-parser@7.1.3)(typescript@7.1.0-beta))(@commitlint/config-conventional@21.2.4)(@types/bun@1.4.4)(@types/node@26.6.5)(@vitest/coverage-istanbul@5.0.5)(@vitest/coverage-v8@5.0.5)(@vitest/expect@5.0.5)(husky@9.1.7)(lint-staged@17.6.0)(markdownlint-cli2-formatter-codequality@0.0.8(markdownlint-cli2@0.24.0(supports-color@8.1.1)))(markdownlint-cli2@0.24.0(supports-color@8.1.1))(redis@6.3.0)(tsx@4.23.15)(turbo@2.11.10)(typescript@7.1.0-beta)(vite@8.3.5(@types/node@26.6.5)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))(vitest@5.0.5)':
     dependencies:
       '@changesets/cli': 3.0.3
       '@commitlint/cli': 21.2.4(conventional-commits-parser@7.1.3)(typescript@7.1.0-beta)
