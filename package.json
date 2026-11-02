@@ -38,10 +38,11 @@
 		"types:check": "tsc --noEmit"
 	},
 	"devDependencies": {
+		"@effected/plugin": "catalog:effected",
 		"@okfit/plugin": "^0.5.29",
 		"@savvy-web/bundler": "^2.7.3",
 		"@savvy-web/silk": "^4.5.6",
-		"@vitest-agent/plugin": "^5.6.2"
+		"@vitest-agent/plugin": "^6.0.5"
 	},
 	"engines": {
 		"node": ">=24.11.0"
