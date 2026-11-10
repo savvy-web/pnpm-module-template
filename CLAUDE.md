@@ -38,10 +38,17 @@ on the root package.
 
 ### Build Pipeline
 
-Rslib with dual output via `@savvy-web/rslib-builder`:
+`effected package build` from `@effected/plugin`, with zero config (an
+optional `effected.toml` holds overrides). There is a single production
+build and no dev build:
 
-1. `dist/dev/` — Development build with source maps (used for local linking)
-2. `dist/npm/` — Production build for npm publishing
+- `dist/prod/npm/pkg/` — the package published to npm
+- `dist/prod/issues.json` — build, TSDoc and API Extractor diagnostics.
+  Check `buildOk` first; API Extractor warnings are fatal in CI.
+- `dist/prod/targets.json` — publish groups and registries
+
+Local consumers resolve the package through `exports` to `src/`; there
+is no link directory.
 
 The source `package.json` has `"private": true` — the builder transforms
 this during build based on `publishConfig.access`. Do not remove it.
@@ -53,7 +60,7 @@ Turborepo orchestrates build, typecheck, and test tasks via
 parallelization. Run tasks through pnpm scripts (e.g.
 `pnpm run build`), which delegate to `turbo run` under the hood.
 
-Task dependencies: `build:dev` and `build:prod` depend on
+Task dependencies: `build:prod` (run by `pnpm run build`) depends on
 `types:check` completing first.
 
 ### Code Quality
@@ -118,7 +125,7 @@ Implementation code lives in `src/lib/`. The entry point imports from
 
 ### Documentation (TSDoc + API Extractor)
 
-`@savvy-web/rslib-builder` generates API documentation via API Extractor.
+`effected package build` generates API documentation via API Extractor.
 Write robust TSDoc comments to produce accurate docs.
 
 **Rules:**

@@ -49,17 +49,15 @@ pnpm-module-template/
 ├── lib/
 │   └── configs/                    # Shared configuration files
 └── dist/                           # Build output
-    ├── dev/                        # Development build
-    └── npm/                        # Production build for npm
+    └── prod/                       # Production build (npm/pkg, issues.json)
 ```
 
 ## Available Scripts
 
 | Script | Description |
 | --- | --- |
-| `pnpm run build` | Build all outputs (dev + prod) |
-| `pnpm run build:dev` | Build development output only |
-| `pnpm run build:prod` | Build production output only |
+| `pnpm run build` | Type-check, then build the package via Turbo |
+| `pnpm run build:prod` | Run `effected package build` directly |
 | `pnpm run test` | Run all tests with coverage |
 | `pnpm run test:watch` | Run tests in watch mode |
 | `pnpm run lint` | Check code with Biome |

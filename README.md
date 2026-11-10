@@ -9,7 +9,7 @@ of the box.
 
 | Concern | Tool |
 | --- | --- |
-| Build | [`@savvy-web/rslib-builder`](https://github.com/savvy-web/rslib-builder) — dual dev/npm output via Rslib |
+| Build | [`@effected/plugin`](https://www.npmjs.com/package/@effected/plugin) — zero-config `effected package build` with API Extractor |
 | Testing | [`@savvy-web/vitest`](https://github.com/savvy-web/vitest) — zero-config Vitest with v8 coverage |
 | Linting | [`@savvy-web/lint-staged`](https://github.com/savvy-web/lint-staged) — Biome, markdownlint, and more via Husky |
 | Commits | [`@savvy-web/commitlint`](https://github.com/savvy-web/commitlint) — conventional commits with DCO signoff |
